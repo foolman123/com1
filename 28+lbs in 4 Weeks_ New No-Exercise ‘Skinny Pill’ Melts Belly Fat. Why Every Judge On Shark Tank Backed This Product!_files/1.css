@@ -1,0 +1,39 @@
+
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(fonts/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+
+        .glue_popup {
+            height: 450px;
+            max-width: 700px;
+            box-shadow: 0px 0px 7px #4a4a4a;
+            -moz-box-shadow: 0px 0px 7px #4a4a4a;
+            -webkit-box-shadow: 0px 0px 7px #4a4a4a;
+            background: #fff;
+            -webkit-animation: zoomin 0.4s;
+            animation: zoomin 0.4s;
+            border-radius: 5px;
+            border: 3px solid rgba(0,51,102,.99);
+            display: none;
+            z-index: 1000;
+            margin-left: 0 !important;
+            margin-top: 0 !important;
+            width: 100%;
+            height: unset !important;
+            padding: 10px 0;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /*向左向上分别平移自身的一半*/
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+        }
+
+            .glue_popup * {
+                font-family: "Roboto Slab";
+         
